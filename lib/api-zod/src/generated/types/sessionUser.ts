@@ -6,6 +6,12 @@
  * OpenAPI spec version: 0.1.0
  */
 
-export interface HealthStatus {
-  status: string;
-}
+/**
+ * @nullable
+ */
+export type SessionUser = {
+  id: string;
+  fullName: string;
+  email: string;
+  rewardPoints: number;
+} | null;
