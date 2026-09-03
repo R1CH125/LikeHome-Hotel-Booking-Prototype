@@ -1,0 +1,1 @@
+- [OpenAPI code generation](openapi-codegen.md) — regenerate clients first, then preserve the narrow Zod barrel export to avoid generated type collisions.

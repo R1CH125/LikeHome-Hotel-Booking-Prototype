@@ -1,6 +1,6 @@
-# [Project name]
+# LikeHome
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+LikeHome is a mock hotel-booking web application for discovering stays, managing reservations, and earning rewards.
 
 ## Run & Operate
 
@@ -22,23 +22,35 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/likehome` — React/Vite customer-facing web app and visual theme
+- `artifacts/api-server/src/routes/likehome.ts` — demo hotel, auth, booking, cancellation, completion, and rewards API
+- `artifacts/api-server/src/routes/likehome-data.ts` — sample hotels, rooms, and process-local demo state
+- `lib/api-spec/openapi.yaml` — source-of-truth API contract
+- `supabase/migrations/001_likehome.sql` — production-oriented PostgreSQL schema and RLS policies
+- `docs/` and `tests/manual-qa.md` — requirements, architecture, API reference, demo script, and QA scenarios
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- Preview uses a process-local demo store so the full customer flow works without external credentials.
+- Payment is explicitly Demo Payment Mode until Stripe Test Mode is connected; card details are never sent to the demo API.
+- React Query hooks and Zod validators are generated from the OpenAPI contract.
+- Supabase migrations and environment documentation define the intended persistent production integration.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Browse, search, filter, sort, and inspect a curated hotel collection.
+- Select dates, guests, and available rooms, then create a reservation through a simulated payment flow.
+- Sign up, sign in, sign out, view personal trips, change or cancel bookings, and see cancellation charges.
+- Mark a demo stay completed to earn points and redeem a free night when the balance is sufficient.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+No project-specific preferences recorded.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- Demo users, sessions, bookings, and rewards reset when the API workflow restarts.
+- Run API code generation after changing `lib/api-spec/openapi.yaml`; it rewrites the generated folders and may require restoring the intentional Zod barrel export fix.
 
 ## Pointers
 
