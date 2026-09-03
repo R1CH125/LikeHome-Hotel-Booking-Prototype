@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @plugin "@tailwindcss/typography";
@@ -78,72 +79,72 @@
   --elevate-1: rgba(0, 0, 0, 0.03);
   --elevate-2: rgba(0, 0, 0, 0.08);
 
-  --background: red; /*replace with H S L */
+  --background: 39 44% 96%;
 
-  --foreground: red; /*replace with H S L */
+  --foreground: 197 43% 17%;
 
-  --border: red; /*replace with H S L */
+  --border: 36 27% 84%;
 
-  --card: red; /*replace with H S L */
+  --card: 40 50% 99%;
 
-  --card-foreground: red; /*replace with H S L */
+  --card-foreground: 197 43% 17%;
 
-  --card-border: red; /*replace with H S L */
+  --card-border: 36 29% 86%;
 
-  --sidebar: red; /*replace with H S L */
+  --sidebar: 195 38% 20%;
 
-  --sidebar-foreground: red; /*replace with H S L */
+  --sidebar-foreground: 40 50% 97%;
 
-  --sidebar-border: red; /*replace with H S L */
+  --sidebar-border: 195 31% 28%;
 
-  --sidebar-primary: red; /*replace with H S L */
+  --sidebar-primary: 37 87% 67%;
 
-  --sidebar-primary-foreground: red; /*replace with H S L */
+  --sidebar-primary-foreground: 197 43% 17%;
 
-  --sidebar-accent: red; /*replace with H S L */
+  --sidebar-accent: 195 30% 27%;
 
-  --sidebar-accent-foreground: red; /*replace with H S L */
+  --sidebar-accent-foreground: 40 50% 97%;
 
-  --sidebar-ring: red; /*replace with H S L */
+  --sidebar-ring: 37 87% 67%;
 
-  --popover: red; /*replace with H S L */
+  --popover: 40 50% 99%;
 
-  --popover-foreground: red; /*replace with H S L */
+  --popover-foreground: 197 43% 17%;
 
-  --popover-border: red; /*replace with H S L */
+  --popover-border: 36 29% 86%;
 
-  --primary: red; /*replace with H S L */
+  --primary: 194 47% 29%;
 
-  --primary-foreground: red; /*replace with H S L */
+  --primary-foreground: 40 50% 98%;
 
-  --secondary: red; /*replace with H S L */
+  --secondary: 36 36% 89%;
 
-  --secondary-foreground: red; /*replace with H S L */
+  --secondary-foreground: 197 43% 17%;
 
-  --muted: red; /*replace with H S L */
+  --muted: 38 33% 92%;
 
-  --muted-foreground: red; /*replace with H S L */
+  --muted-foreground: 197 17% 43%;
 
-  --accent: red; /*replace with H S L */
+  --accent: 37 87% 67%;
 
-  --accent-foreground: red; /*replace with H S L */
+  --accent-foreground: 197 43% 17%;
 
-  --destructive: red; /*replace with H S L */
+  --destructive: 4 61% 48%;
 
-  --destructive-foreground: red; /*replace with H S L */
+  --destructive-foreground: 40 50% 98%;
 
-  --input: red; /*replace with H S L */
-  --ring: red; /*replace with H S L */
-  --chart-1: red; /*replace with H S L */
-  --chart-2: red; /*replace with H S L */
-  --chart-3: red; /*replace with H S L */
-  --chart-4: red; /*replace with H S L */
-  --chart-5: red; /*replace with H S L */
+  --input: 36 29% 80%;
+  --ring: 194 47% 29%;
+  --chart-1: 194 47% 29%;
+  --chart-2: 37 87% 67%;
+  --chart-3: 14 59% 61%;
+  --chart-4: 156 29% 43%;
+  --chart-5: 275 27% 52%;
 
-  --app-font-sans: 'Inter', sans-serif;
-  --app-font-serif: Georgia, serif;
-  --app-font-mono: Menlo, monospace;
-  --radius: 0.5rem; /* 8px */
+  --app-font-sans: 'DM Sans', sans-serif;
+  --app-font-serif: 'Playfair Display', Georgia, serif;
+  --app-font-mono: 'Space Mono', monospace;
+  --radius: 0.85rem;
   --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */
   --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0); /*replace with H S L */
   --shadow-sm:
@@ -227,68 +228,68 @@
   --elevate-1: rgba(255, 255, 255, 0.04);
   --elevate-2: rgba(255, 255, 255, 0.09);
 
-  --background: red; /*replace with H S L */
+  --background: 198 33% 11%;
 
-  --foreground: red; /*replace with H S L */
+  --foreground: 39 44% 96%;
 
-  --border: red; /*replace with H S L */
+  --border: 198 23% 25%;
 
-  --card: red; /*replace with H S L */
+  --card: 198 29% 15%;
 
-  --card-foreground: red; /*replace with H S L */
+  --card-foreground: 39 44% 96%;
 
-  --card-border: red; /*replace with H S L */
+  --card-border: 198 23% 25%;
 
-  --sidebar: red; /*replace with H S L */
+  --sidebar: 198 37% 8%;
 
-  --sidebar-foreground: red; /*replace with H S L */
+  --sidebar-foreground: 39 44% 96%;
 
-  --sidebar-border: red; /*replace with H S L */
+  --sidebar-border: 198 23% 20%;
 
-  --sidebar-primary: red; /*replace with H S L */
+  --sidebar-primary: 37 87% 67%;
 
-  --sidebar-primary-foreground: red; /*replace with H S L */
+  --sidebar-primary-foreground: 198 33% 11%;
 
-  --sidebar-accent: red; /*replace with H S L */
+  --sidebar-accent: 198 23% 20%;
 
-  --sidebar-accent-foreground: red; /*replace with H S L */
+  --sidebar-accent-foreground: 39 44% 96%;
 
-  --sidebar-ring: red; /*replace with H S L */
+  --sidebar-ring: 37 87% 67%;
 
-  --popover: red; /*replace with H S L */
+  --popover: 198 29% 15%;
 
-  --popover-foreground: red; /*replace with H S L */
+  --popover-foreground: 39 44% 96%;
 
-  --popover-border: red; /*replace with H S L */
+  --popover-border: 198 23% 25%;
 
-  --primary: red; /*replace with H S L */
+  --primary: 37 87% 67%;
 
-  --primary-foreground: red; /*replace with H S L */
+  --primary-foreground: 198 33% 11%;
 
-  --secondary: red; /*replace with H S L */
+  --secondary: 198 23% 22%;
 
-  --secondary-foreground: red; /*replace with H S L */
+  --secondary-foreground: 39 44% 96%;
 
-  --muted: red; /*replace with H S L */
+  --muted: 198 23% 19%;
 
-  --muted-foreground: red; /*replace with H S L */
+  --muted-foreground: 198 13% 70%;
 
-  --accent: red; /*replace with H S L */
+  --accent: 37 87% 67%;
 
-  --accent-foreground: red; /*replace with H S L */
+  --accent-foreground: 198 33% 11%;
 
-  --destructive: red; /*replace with H S L */
+  --destructive: 4 61% 58%;
 
-  --destructive-foreground: red; /*replace with H S L */
+  --destructive-foreground: 39 44% 96%;
 
   /* Used as the border around inputs. Dark mode: Should be a border that is light enough to have high contrast when rendered on a --card background. More contrast than standard --border */
-  --input: red; /*replace with H S L */
-  --ring: red; /*replace with H S L */
-  --chart-1: red; /*replace with H S L */
-  --chart-2: red; /*replace with H S L */
-  --chart-3: red; /*replace with H S L */
-  --chart-4: red; /*replace with H S L */
-  --chart-5: red; /*replace with H S L */
+  --input: 198 23% 30%;
+  --ring: 37 87% 67%;
+  --chart-1: 37 87% 67%;
+  --chart-2: 194 47% 55%;
+  --chart-3: 14 59% 61%;
+  --chart-4: 156 29% 53%;
+  --chart-5: 275 27% 62%;
 
   --shadow-2xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0);
   --shadow-xs: 0px 2px 0px 0px hsl(202.8169 89.1213% 53.1373% / 0);
@@ -429,5 +430,278 @@
   .border.active-elevate-2:not(.no-active-interaction-elevate)::after,
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
     inset: -1px;
+  }
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { background: #f7f3eb; color: #19333b; }
+  button, a, input, select { -webkit-tap-highlight-color: transparent; }
+  button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+    outline: 3px solid rgba(236, 178, 90, .65);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .lh-shell { min-height: 100dvh; background: radial-gradient(circle at 93% 5%, rgba(231,190,119,.16), transparent 24rem), #f7f3eb; }
+  .lh-container { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
+  .lh-display { font-family: var(--app-font-serif); letter-spacing: -.035em; }
+  .lh-mono { font-family: var(--app-font-mono); letter-spacing: .08em; text-transform: uppercase; font-size: 10px; }
+  .lh-header { position: sticky; top: 0; z-index: 30; background: rgba(247,243,235,.86); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(36,64,72,.1); }
+  .lh-header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+  .lh-logo { display: inline-flex; align-items: center; gap: 10px; color: #19333b; font-weight: 700; letter-spacing: -.04em; font-size: 20px; }
+  .lh-logo-mark { width: 31px; height: 31px; border-radius: 11px 11px 11px 3px; background: #e9b261; display: grid; place-items: center; color: #19333b; transform: rotate(-7deg); }
+  .lh-logo-mark svg { transform: rotate(7deg); }
+  .lh-nav { display: flex; align-items: center; gap: 5px; }
+  .lh-nav a { color: #5c7072; padding: 10px 13px; border-radius: 999px; font-size: 13px; font-weight: 600; transition: background .2s ease, color .2s ease, transform .2s ease; }
+  .lh-nav a:hover, .lh-nav a.active { color: #19333b; background: #ece4d5; }
+  .lh-nav a:active { transform: scale(.96); }
+  .lh-header-actions { display: flex; align-items: center; gap: 10px; }
+  .lh-btn { border: 0; cursor: pointer; border-radius: 999px; padding: 13px 19px; font: 600 13px var(--app-font-sans); transition: transform .2s ease, background .2s ease, box-shadow .2s ease; display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+  .lh-btn:hover { transform: translateY(-2px); }
+  .lh-btn:active { transform: translateY(0) scale(.98); }
+  .lh-btn-primary { background: #244f59; color: #fffaf1; box-shadow: 0 7px 15px rgba(36,79,89,.18); }
+  .lh-btn-primary:hover { background: #193e47; box-shadow: 0 10px 20px rgba(36,79,89,.24); }
+  .lh-btn-accent { background: #e9b261; color: #19333b; box-shadow: 0 7px 15px rgba(217,154,70,.18); }
+  .lh-btn-quiet { background: #ece4d5; color: #244f59; }
+  .lh-btn-quiet:hover { background: #e2d7c5; }
+  .lh-btn-ghost { background: transparent; color: #244f59; border: 1px solid rgba(36,79,89,.18); }
+  .lh-btn-block { width: 100%; }
+  .lh-btn[disabled] { opacity: .55; cursor: not-allowed; transform: none; }
+  .lh-hero { padding: 74px 0 86px; position: relative; overflow: hidden; }
+  .lh-hero::before { content: ''; position: absolute; width: 570px; height: 570px; right: -140px; top: -170px; border-radius: 50%; background: #dbe9e3; opacity: .62; z-index: 0; }
+  .lh-hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1.05fr; align-items: center; gap: 62px; }
+  .lh-kicker { color: #b06d36; margin-bottom: 18px; }
+  .lh-hero h1 { max-width: 640px; font-size: clamp(46px, 6vw, 80px); line-height: .98; margin: 0 0 24px; color: #19333b; }
+  .lh-hero h1 em { color: #b06d36; font-style: normal; }
+  .lh-lead { max-width: 495px; color: #5c7072; font-size: 17px; line-height: 1.65; }
+  .lh-hero-art { min-height: 470px; position: relative; }
+  .lh-hero-image { position: absolute; inset: 0 0 32px 40px; border-radius: 150px 20px 20px 20px; overflow: hidden; background: linear-gradient(135deg, #b8d0c9, #e6bb7f); box-shadow: 0 28px 45px rgba(39,72,75,.16); }
+  .lh-hero-image img { width: 100%; height: 100%; object-fit: cover; transition: transform .7s ease; }
+  .lh-hero-image:hover img { transform: scale(1.04); }
+  .lh-image-scrim { position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(18,51,59,.54)); }
+  .lh-float-note { position: absolute; left: -2px; bottom: 0; background: #fffaf1; padding: 16px 18px; border-radius: 5px 18px 18px 18px; box-shadow: 0 15px 32px rgba(36,64,72,.18); max-width: 205px; }
+  .lh-float-note strong { display: block; font: 600 18px var(--app-font-serif); margin: 5px 0 3px; }
+  .lh-float-note span { font-size: 11px; color: #6f8080; }
+  .lh-search-card { background: #fffaf1; box-shadow: 0 16px 35px rgba(35,64,68,.13); border-radius: 18px; padding: 10px; display: flex; align-items: stretch; gap: 4px; margin-top: 35px; }
+  .lh-search-field { min-width: 0; flex: 1; display: flex; align-items: center; gap: 10px; padding: 10px 13px; border-radius: 12px; }
+  .lh-search-field:hover { background: #f4eee4; }
+  .lh-search-field svg { color: #b06d36; flex: 0 0 auto; }
+  .lh-search-field label { display: block; color: #7b8c8a; font-size: 10px; font-weight: 600; margin-bottom: 3px; }
+  .lh-search-field input, .lh-search-field select { display: block; background: none; border: 0; width: 100%; color: #19333b; outline: none; font: 600 13px var(--app-font-sans); min-width: 0; }
+  .lh-search-card .lh-btn { margin: 4px; padding-inline: 25px; }
+  .lh-section { padding: 90px 0; }
+  .lh-section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 32px; }
+  .lh-section h2 { margin: 0; font-size: clamp(32px, 4vw, 49px); line-height: 1.05; }
+  .lh-section-intro { max-width: 400px; color: #6f8080; line-height: 1.6; font-size: 14px; }
+  .lh-hotel-grid { display: grid; grid-template-columns: 1.25fr .92fr .92fr; gap: 18px; }
+  .lh-hotel-card { min-width: 0; cursor: pointer; }
+  .lh-hotel-card.featured { grid-row: span 2; }
+  .lh-hotel-photo { overflow: hidden; border-radius: 16px; background: #d6e2dc; aspect-ratio: 1.25/1; position: relative; }
+  .lh-hotel-photo > a { display: block; width: 100%; height: 100%; }
+  .featured .lh-hotel-photo { aspect-ratio: .92/1; }
+  .lh-hotel-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+  .lh-hotel-card:hover .lh-hotel-photo img { transform: scale(1.06); }
+  .lh-heart { position: absolute; top: 13px; right: 13px; background: rgba(255,250,241,.9); border: 0; width: 33px; height: 33px; display: grid; place-items: center; border-radius: 50%; color: #244f59; cursor: pointer; transition: transform .2s ease, color .2s ease; }
+  .lh-heart:hover { transform: scale(1.1); color: #b06d36; }
+  .lh-hotel-meta { padding: 14px 2px; display: flex; justify-content: space-between; gap: 10px; text-decoration: none; color: inherit; }
+  .lh-hotel-meta h3 { font: 600 18px var(--app-font-serif); margin: 0 0 4px; letter-spacing: -.02em; }
+  .lh-hotel-meta p { color: #718180; font-size: 12px; margin: 0; }
+  .lh-rating { white-space: nowrap; color: #b06d36; font: 700 11px var(--app-font-mono); }
+  .lh-price { font-size: 12px; color: #5c7072; margin-top: 8px; }
+  .lh-price b { color: #19333b; font-size: 15px; }
+  .lh-story { background: #244f59; color: #fffaf1; padding: 85px 0; position: relative; overflow: hidden; }
+  .lh-story::after { content: ''; position: absolute; width: 490px; height: 490px; border: 1px solid rgba(255,250,241,.16); border-radius: 50%; right: -180px; top: -130px; }
+  .lh-story-grid { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: 80px; }
+  .lh-story h2 { font-size: clamp(35px, 4vw, 57px); line-height: 1.02; margin: 0; }
+  .lh-story h2 em { color: #e9b261; font-style: normal; }
+  .lh-story-copy { color: rgba(255,250,241,.7); font-size: 15px; line-height: 1.7; max-width: 550px; }
+  .lh-stat-row { display: flex; gap: 35px; margin-top: 30px; }
+  .lh-stat strong { display: block; color: #e9b261; font: 600 28px var(--app-font-serif); }
+  .lh-stat span { color: rgba(255,250,241,.56); font-size: 11px; }
+  .lh-page { padding: 48px 0 90px; }
+  .lh-page-title { font-size: clamp(35px, 5vw, 58px); margin: 0; line-height: 1; }
+  .lh-page-subtitle { color: #718180; margin: 12px 0 35px; line-height: 1.6; }
+  .lh-results-layout { display: grid; grid-template-columns: 230px 1fr; gap: 38px; }
+  .lh-filter { border-right: 1px solid rgba(36,64,72,.14); padding-right: 25px; }
+  .lh-filter h3 { font: 600 18px var(--app-font-serif); margin: 0 0 23px; }
+  .lh-filter-group { margin-bottom: 25px; }
+  .lh-filter-label { display: flex; justify-content: space-between; font: 600 11px var(--app-font-mono); color: #5c7072; margin-bottom: 9px; text-transform: uppercase; letter-spacing: .05em; }
+  .lh-filter input[type=range] { accent-color: #244f59; width: 100%; }
+  .lh-filter select, .lh-input { width: 100%; border: 1px solid #d8d0c3; background: #fffaf1; border-radius: 10px; padding: 11px 12px; color: #19333b; font: 500 13px var(--app-font-sans); }
+  .lh-sort-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; color: #718180; font-size: 13px; }
+  .lh-sort-row select { border: 0; background: transparent; color: #244f59; font-weight: 600; padding: 8px; }
+  .lh-results { display: grid; gap: 18px; }
+  .lh-result-card { display: grid; grid-template-columns: 220px 1fr auto; gap: 20px; padding: 13px; background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 17px; box-shadow: 0 5px 14px rgba(36,64,72,.04); transition: transform .25s ease, box-shadow .25s ease; }
+  .lh-result-card:hover { transform: translateY(-3px); box-shadow: 0 15px 30px rgba(36,64,72,.11); }
+  .lh-result-card img { width: 220px; height: 168px; object-fit: cover; border-radius: 11px; }
+  .lh-result-info h3 { font: 600 23px var(--app-font-serif); margin: 8px 0 3px; }
+  .lh-result-info p { color: #718180; font-size: 13px; line-height: 1.55; margin: 8px 0; max-width: 440px; }
+  .lh-chip { display: inline-flex; padding: 6px 9px; border-radius: 999px; background: #dbe9e3; color: #244f59; font-size: 10px; font-weight: 700; margin: 3px 3px 0 0; }
+  .lh-result-price { display: flex; flex-direction: column; justify-content: end; align-items: end; padding: 7px; min-width: 92px; }
+  .lh-result-price strong { font: 600 21px var(--app-font-serif); }
+  .lh-result-price span { color: #718180; font-size: 11px; margin-bottom: 14px; }
+  .lh-gallery { display: grid; grid-template-columns: 1.4fr .8fr .8fr; grid-template-rows: 190px 190px; gap: 8px; border-radius: 18px; overflow: hidden; }
+  .lh-gallery img { width: 100%; height: 100%; object-fit: cover; }
+  .lh-gallery img:first-child { grid-row: span 2; }
+  .lh-detail-head { display: flex; justify-content: space-between; align-items: end; gap: 30px; margin: 32px 0; }
+  .lh-detail-head h1 { font-size: clamp(36px, 5vw, 62px); margin: 8px 0; line-height: .98; }
+  .lh-detail-head p { color: #718180; margin: 0; }
+  .lh-detail-main { display: grid; grid-template-columns: 1fr 350px; gap: 48px; }
+  .lh-detail-main h2 { font: 600 31px var(--app-font-serif); margin: 0 0 16px; }
+  .lh-detail-main .description { color: #5c7072; line-height: 1.75; max-width: 690px; }
+  .lh-amenities { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 42px; }
+  .lh-amenity { border: 1px solid #d8d0c3; border-radius: 999px; padding: 8px 12px; color: #5c7072; font-size: 12px; background: rgba(255,250,241,.6); }
+  .lh-room-list { display: grid; gap: 14px; }
+  .lh-room-card { display: grid; grid-template-columns: 150px 1fr auto; gap: 17px; background: #fffaf1; padding: 10px; border: 1px solid #e7dfd2; border-radius: 15px; align-items: center; }
+  .lh-room-card img { width: 150px; height: 120px; object-fit: cover; border-radius: 9px; }
+  .lh-room-card h3 { font: 600 20px var(--app-font-serif); margin: 0 0 4px; }
+  .lh-room-card p { color: #718180; font-size: 12px; line-height: 1.5; margin: 0 0 8px; }
+  .lh-room-price { text-align: right; white-space: nowrap; padding-right: 7px; }
+  .lh-room-price strong { font: 600 21px var(--app-font-serif); display: block; }
+  .lh-room-price small { color: #718180; font-size: 10px; display: block; margin-bottom: 12px; }
+  .lh-booking-card { background: #fffaf1; border: 1px solid #e7dfd2; box-shadow: 0 18px 35px rgba(36,64,72,.08); border-radius: 17px; padding: 25px; position: sticky; top: 104px; }
+  .lh-booking-card h3 { font: 600 24px var(--app-font-serif); margin: 0 0 17px; }
+  .lh-summary-line { display: flex; justify-content: space-between; gap: 10px; color: #718180; font-size: 13px; padding: 10px 0; border-bottom: 1px solid #ece4d5; }
+  .lh-summary-line strong { color: #19333b; }
+  .lh-summary-total { display: flex; justify-content: space-between; margin: 19px 0; font: 600 20px var(--app-font-serif); }
+  .lh-form-card { width: min(540px, 100%); margin: 25px auto 0; background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 20px; padding: 30px; box-shadow: 0 18px 42px rgba(36,64,72,.08); }
+  .lh-form-card h1 { font-size: 35px; margin: 0 0 8px; }
+  .lh-form-card > p { color: #718180; font-size: 14px; line-height: 1.55; margin: 0 0 25px; }
+  .lh-form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
+  .lh-form-field { margin-bottom: 15px; }
+  .lh-form-field label { display: block; font-size: 11px; font-weight: 700; color: #5c7072; margin-bottom: 7px; }
+  .lh-form-field .lh-input { display: block; }
+  .lh-form-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; font-size: 12px; color: #718180; }
+  .lh-form-foot a { color: #b06d36; font-weight: 700; }
+  .lh-alert { border-radius: 12px; padding: 12px 14px; background: #f5ddda; color: #8b342d; font-size: 13px; margin-bottom: 15px; }
+  .lh-confirmation { max-width: 800px; margin: 30px auto; text-align: center; }
+  .lh-checkmark { width: 70px; height: 70px; border-radius: 50%; background: #dbe9e3; color: #244f59; display: grid; place-items: center; margin: 0 auto 20px; }
+  .lh-confirmation h1 { font-size: clamp(40px, 6vw, 65px); line-height: .98; margin: 0 0 12px; }
+  .lh-confirmation > p { color: #718180; line-height: 1.6; }
+  .lh-confirm-box { margin-top: 32px; display: grid; grid-template-columns: 1fr 1fr; text-align: left; background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 18px; overflow: hidden; box-shadow: 0 17px 35px rgba(36,64,72,.08); }
+  .lh-confirm-box img { width: 100%; height: 100%; min-height: 250px; object-fit: cover; }
+  .lh-confirm-details { padding: 28px; }
+  .lh-confirm-details h2 { font: 600 27px var(--app-font-serif); margin: 0 0 5px; }
+  .lh-confirm-details p { color: #718180; font-size: 13px; margin: 0 0 20px; }
+  .lh-code { display: inline-block; padding: 9px 11px; border-radius: 7px; background: #ece4d5; color: #244f59; font: 700 12px var(--app-font-mono); letter-spacing: .1em; }
+  .lh-bookings-head { display: flex; align-items: end; justify-content: space-between; margin-bottom: 29px; }
+  .lh-booking-list { display: grid; gap: 15px; }
+  .lh-booking-row { display: grid; grid-template-columns: 190px 1fr auto; gap: 20px; padding: 12px; background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 17px; align-items: center; }
+  .lh-booking-row img { width: 190px; height: 145px; border-radius: 11px; object-fit: cover; }
+  .lh-booking-row h3 { margin: 0 0 5px; font: 600 22px var(--app-font-serif); }
+  .lh-booking-row p { color: #718180; font-size: 12px; margin: 4px 0; }
+  .lh-status { display: inline-flex; padding: 6px 9px; border-radius: 999px; background: #dbe9e3; color: #244f59; font: 700 10px var(--app-font-mono); text-transform: uppercase; }
+  .lh-status.cancelled { background: #f5ddda; color: #8b342d; }
+  .lh-booking-actions { display: flex; flex-direction: column; gap: 8px; align-items: stretch; }
+  .lh-reward-hero { background: #244f59; border-radius: 20px; color: #fffaf1; padding: 40px; display: grid; grid-template-columns: 1fr .8fr; gap: 30px; overflow: hidden; position: relative; }
+  .lh-reward-hero::after { content: ''; width: 300px; height: 300px; border: 1px solid rgba(255,255,255,.15); border-radius: 50%; position: absolute; right: -80px; top: -100px; }
+  .lh-reward-hero h1 { font-size: clamp(35px, 5vw, 57px); line-height: .98; margin: 0 0 14px; position: relative; z-index: 1; }
+  .lh-reward-hero p { color: rgba(255,250,241,.72); line-height: 1.6; max-width: 460px; position: relative; z-index: 1; }
+  .lh-points { align-self: center; justify-self: end; text-align: right; position: relative; z-index: 1; }
+  .lh-points strong { display: block; color: #e9b261; font: 600 66px var(--app-font-serif); line-height: .9; }
+  .lh-points span { color: rgba(255,250,241,.6); font-size: 12px; }
+  .lh-rewards-grid { margin-top: 32px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 20px; }
+  .lh-panel { background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 17px; padding: 25px; }
+  .lh-panel h2 { font: 600 25px var(--app-font-serif); margin: 0 0 18px; }
+  .lh-benefit { display: flex; gap: 12px; padding: 14px 0; border-bottom: 1px solid #ece4d5; }
+  .lh-benefit:last-child { border: 0; }
+  .lh-benefit-icon { color: #b06d36; padding-top: 2px; }
+  .lh-benefit strong { display: block; font-size: 13px; margin-bottom: 4px; }
+  .lh-benefit span { display: block; color: #718180; line-height: 1.4; font-size: 12px; }
+  .lh-transaction { display: flex; justify-content: space-between; gap: 15px; padding: 14px 0; border-bottom: 1px solid #ece4d5; }
+  .lh-transaction strong { display: block; font-size: 13px; }
+  .lh-transaction span { color: #718180; display: block; font-size: 11px; margin-top: 5px; }
+  .lh-transaction b { color: #44806c; font: 700 14px var(--app-font-mono); white-space: nowrap; }
+  .lh-transaction b.redeemed { color: #b06d36; }
+  .lh-empty, .lh-loading { padding: 60px 25px; text-align: center; border: 1px dashed #d8d0c3; border-radius: 17px; color: #718180; }
+  .lh-empty svg { color: #b06d36; margin: 0 auto 14px; }
+  .lh-skeleton { background: linear-gradient(90deg, #e9e3d9 25%, #f3ede3 50%, #e9e3d9 75%); background-size: 200% 100%; animation: shimmer 1.5s infinite; border-radius: 10px; }
+  .lh-checkout-layout { display: grid; grid-template-columns: 1.2fr .8fr; gap: 40px; align-items: start; }
+  .lh-checkout-section { background: #fffaf1; border: 1px solid #e7dfd2; border-radius: 17px; padding: 25px; margin-bottom: 15px; }
+  .lh-checkout-section h2 { font: 600 25px var(--app-font-serif); margin: 0 0 20px; }
+  .lh-toggle { display: flex; gap: 10px; align-items: start; color: #5c7072; font-size: 13px; line-height: 1.5; cursor: pointer; }
+  .lh-toggle input { accent-color: #244f59; margin-top: 3px; }
+  .lh-mini-hotel { display: flex; gap: 13px; align-items: center; }
+  .lh-mini-hotel img { width: 74px; height: 74px; object-fit: cover; border-radius: 10px; }
+  .lh-mini-hotel h3 { font: 600 18px var(--app-font-serif); margin: 0 0 3px; }
+  .lh-mini-hotel p { color: #718180; font-size: 12px; margin: 0; }
+  .lh-footer { border-top: 1px solid rgba(36,64,72,.12); padding: 32px 0; color: #718180; font-size: 12px; margin-top: auto; }
+  .lh-footer-inner { display: flex; justify-content: space-between; gap: 20px; }
+  .lh-mobile-menu { display: none; }
+  @keyframes shimmer { to { background-position: -200% 0; } }
+  @keyframes reveal { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  .lh-reveal { animation: reveal .55s ease both; }
+  @media (max-width: 900px) {
+    .lh-hero-grid, .lh-detail-main, .lh-checkout-layout { grid-template-columns: 1fr; }
+    .lh-hero-art { min-height: 400px; max-width: 620px; width: 100%; margin-inline: auto; }
+    .lh-booking-card { position: static; }
+    .lh-hotel-grid { grid-template-columns: 1fr 1fr; }
+    .lh-hotel-card.featured { grid-row: auto; }
+    .featured .lh-hotel-photo, .lh-hotel-photo { aspect-ratio: 1.15/1; }
+    .lh-story-grid { grid-template-columns: 1fr; gap: 25px; }
+    .lh-results-layout { grid-template-columns: 190px 1fr; gap: 22px; }
+    .lh-result-card { grid-template-columns: 150px 1fr; }
+    .lh-result-card img { width: 150px; height: 155px; }
+    .lh-result-price { grid-column: 2; flex-direction: row; justify-content: space-between; align-items: center; padding: 0 7px 6px; }
+    .lh-result-price span { margin: 0; }
+  }
+  @media (max-width: 680px) {
+    .lh-container { width: min(100% - 28px, 560px); }
+    .lh-header-inner { min-height: 68px; }
+    .lh-nav { display: none; position: absolute; top: 67px; left: 0; right: 0; background: #fffaf1; border-bottom: 1px solid #e7dfd2; padding: 9px 14px 14px; flex-direction: column; align-items: stretch; box-shadow: 0 15px 25px rgba(36,64,72,.1); }
+    .lh-nav.open { display: flex; }
+    .lh-nav a { border-radius: 10px; }
+    .lh-mobile-menu { display: inline-flex; background: transparent; border: 0; color: #244f59; padding: 8px; }
+    .lh-header-actions .lh-btn-quiet { display: none; }
+    .lh-hero { padding: 45px 0 60px; }
+    .lh-hero h1 { font-size: 49px; }
+    .lh-hero-art { min-height: 310px; }
+    .lh-hero-image { inset: 0 0 25px 22px; border-radius: 90px 16px 16px 16px; }
+    .lh-float-note { left: 0; padding: 12px 14px; max-width: 165px; }
+    .lh-float-note strong { font-size: 15px; }
+    .lh-search-card { display: grid; grid-template-columns: 1fr 1fr; }
+    .lh-search-field { min-width: 0; }
+    .lh-search-card .lh-btn { grid-column: span 2; }
+    .lh-section { padding: 60px 0; }
+    .lh-section-head, .lh-bookings-head, .lh-detail-head { display: block; }
+    .lh-section-intro { margin-top: 15px; }
+    .lh-hotel-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+    .lh-hotel-card.featured { grid-column: span 2; }
+    .featured .lh-hotel-photo { aspect-ratio: 1.5/1; }
+    .lh-hotel-meta { display: block; }
+    .lh-rating { display: block; margin-top: 8px; }
+    .lh-page { padding: 35px 0 60px; }
+    .lh-results-layout { display: block; }
+    .lh-filter { border-right: 0; border-bottom: 1px solid rgba(36,64,72,.14); padding: 0 0 18px; margin-bottom: 20px; }
+    .lh-filter h3 { display: inline-block; margin: 0 20px 0 0; }
+    .lh-filter-group { display: inline-flex; gap: 8px; align-items: center; margin: 4px 8px 4px 0; }
+    .lh-filter-label { margin: 0; }
+    .lh-filter-group input[type=range] { width: 80px; }
+    .lh-result-card { grid-template-columns: 105px 1fr; gap: 12px; }
+    .lh-result-card img { width: 105px; height: 125px; }
+    .lh-result-info h3 { font-size: 19px; margin-top: 4px; }
+    .lh-result-info p { display: none; }
+    .lh-result-price { grid-column: 2; }
+    .lh-gallery { grid-template-rows: 125px 125px; }
+    .lh-detail-head { margin: 22px 0; }
+    .lh-detail-head .lh-btn { margin-top: 16px; }
+    .lh-room-card { grid-template-columns: 90px 1fr; }
+    .lh-room-card img { width: 90px; height: 100px; }
+    .lh-room-price { grid-column: 2; display: flex; align-items: center; justify-content: space-between; text-align: left; padding: 0 5px 5px 0; }
+    .lh-room-price small { margin: 0; }
+    .lh-confirm-box, .lh-rewards-grid { grid-template-columns: 1fr; }
+    .lh-confirm-box img { min-height: 180px; }
+    .lh-reward-hero { grid-template-columns: 1fr; padding: 27px; }
+    .lh-points { justify-self: start; text-align: left; }
+    .lh-points strong { font-size: 52px; }
+    .lh-booking-row { grid-template-columns: 92px 1fr; gap: 12px; }
+    .lh-booking-row img { width: 92px; height: 110px; }
+    .lh-booking-actions { grid-column: 2; flex-direction: row; }
+    .lh-booking-row h3 { font-size: 18px; }
+    .lh-form-card { padding: 23px 18px; }
+    .lh-footer-inner { display: block; }
+    .lh-footer-inner p:last-child { margin-top: 8px; }
   }
 }

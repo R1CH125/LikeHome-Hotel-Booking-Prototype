@@ -241,6 +241,24 @@ paths:
           content:
             application/json:
               schema: { $ref: "#/components/schemas/Error" }
+  /bookings/{id}/complete:
+    post:
+      operationId: completeBooking
+      tags: [bookings]
+      summary: Simulate a completed stay in the demo
+      parameters:
+        - $ref: "#/components/parameters/BookingId"
+      responses:
+        "200":
+          description: Completed booking
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Booking" }
+        "400":
+          description: Completion error
+          content:
+            application/json:
+              schema: { $ref: "#/components/schemas/Error" }
   /rewards:
     get:
       operationId: getRewards

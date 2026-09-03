@@ -1,0 +1,3 @@
+# Contributing to LikeHome
+
+Please keep changes focused, typed, accessible, and covered by the relevant manual QA checklist. Branch from the current main branch, use a descriptive `feature/` or `fix/` name, run the typechecks, test the customer flow in Preview, and open a pull request. A second teammate should review before merge. Never commit secrets or bypass the pull-request flow with direct pushes to main.

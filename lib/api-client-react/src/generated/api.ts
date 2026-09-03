@@ -971,6 +971,77 @@ export const useCancelBooking = <TError = ErrorType<Error>,
       return useMutation(getCancelBookingMutationOptions(options));
     }
 
+export const getCompleteBookingUrl = (id: string,) => {
+
+
+
+
+  return `/api/bookings/${id}/complete`
+}
+
+/**
+ * @summary Simulate a completed stay in the demo
+ */
+export const completeBooking = async (id: string, options?: Parameters<typeof customFetch>[1]): Promise<Booking> => {
+
+  return customFetch<Booking>(getCompleteBookingUrl(id),
+  {
+    ...options,
+    method: 'POST'
+
+
+  }
+);}
+
+
+
+
+
+export const getCompleteBookingMutationOptions = <TError = ErrorType<Error>,
+    TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof completeBooking>>, TError,{id: string}, TContext>, request?: SecondParameter<typeof customFetch>}
+): UseMutationOptions<Awaited<ReturnType<typeof completeBooking>>, TError,{id: string}, TContext> => {
+
+const mutationKey = ['completeBooking'];
+const {mutation: mutationOptions, request: requestOptions} = options ?
+      options.mutation && 'mutationKey' in options.mutation && options.mutation.mutationKey ?
+      options
+      : {...options, mutation: {...options.mutation, mutationKey}}
+      : {mutation: { mutationKey, }, request: undefined};
+
+
+
+
+      const mutationFn: MutationFunction<Awaited<ReturnType<typeof completeBooking>>, {id: string}> = (props) => {
+          const {id} = props ?? {};
+
+          return  completeBooking(id,requestOptions)
+        }
+
+
+
+
+
+
+  return  { mutationFn, ...mutationOptions }}
+
+    export type CompleteBookingMutationResult = NonNullable<Awaited<ReturnType<typeof completeBooking>>>
+
+    export type CompleteBookingMutationError = ErrorType<Error>
+
+    /**
+ * @summary Simulate a completed stay in the demo
+ */
+export const useCompleteBooking = <TError = ErrorType<Error>,
+    TContext = unknown>(options?: { mutation?:UseMutationOptions<Awaited<ReturnType<typeof completeBooking>>, TError,{id: string}, TContext>, request?: SecondParameter<typeof customFetch>}
+ ): UseMutationResult<
+        Awaited<ReturnType<typeof completeBooking>>,
+        TError,
+        {id: string},
+        TContext
+      > => {
+      return useMutation(getCompleteBookingMutationOptions(options));
+    }
+
 export const getGetRewardsUrl = () => {
 
 

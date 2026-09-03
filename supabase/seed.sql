@@ -1,0 +1,4 @@
+-- The browser demo ships with 12 in-memory sample stays so Preview works without
+-- external setup. Run this file after 001_likehome.sql when connecting Supabase.
+-- Add hotel, hotel_images, and rooms rows using the image URLs from
+-- artifacts/api-server/src/routes/likehome-data.ts.

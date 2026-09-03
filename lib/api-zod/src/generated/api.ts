@@ -413,6 +413,52 @@ export const CancelBookingResponse = zod.object({
 
 
 /**
+ * @summary Simulate a completed stay in the demo
+ */
+export const CompleteBookingParams = zod.object({
+  "id": zod.coerce.string()
+})
+
+export const CompleteBookingResponse = zod.object({
+  "id": zod.string(),
+  "confirmationNumber": zod.string(),
+  "hotel": zod.object({
+  "id": zod.string(),
+  "slug": zod.string(),
+  "name": zod.string(),
+  "location": zod.string(),
+  "imageUrl": zod.string(),
+  "rating": zod.number(),
+  "startingPrice": zod.number(),
+  "description": zod.string(),
+  "amenities": zod.array(zod.string())
+}),
+  "room": zod.object({
+  "id": zod.string(),
+  "name": zod.string(),
+  "roomType": zod.string(),
+  "description": zod.string(),
+  "pricePerNight": zod.number(),
+  "guestCapacity": zod.int(),
+  "imageUrl": zod.string(),
+  "available": zod.boolean()
+}),
+  "checkIn": zod.coerce.date(),
+  "checkOut": zod.coerce.date(),
+  "guests": zod.int(),
+  "nights": zod.int(),
+  "subtotal": zod.number(),
+  "rewardDiscount": zod.number(),
+  "total": zod.number(),
+  "status": zod.enum(['pending', 'confirmed', 'completed', 'cancelled']),
+  "paymentStatus": zod.enum(['unpaid', 'paid', 'partially_refunded', 'refunded', 'failed']),
+  "cancellationCharge": zod.number(),
+  "pointsExpected": zod.int(),
+  "createdAt": zod.coerce.date().optional()
+})
+
+
+/**
  * @summary Get reward balance and history
  */
 export const GetRewardsResponse = zod.object({
